@@ -1,0 +1,203 @@
+/* Big tablet to 1200px (widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .intro_content {
+    width: 80%;
+
+    font-size: 3vmax;
+  }
+
+  .top-bar {
+    padding: 0 2%;
+  }
+
+  .logo {
+    height: 80px;
+    margin-top: 10px;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1024px */
+@media only screen and (max-width: 1024px) {
+  .intro_content {
+    width: 85%;
+  }
+
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  p {
+    font-size: 80%;
+  }
+
+  .longbody {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3.longbody {
+    align-content: left;
+    padding-right: 200px;
+  }
+
+  .sticky {
+    height: 48px;
+    font-size: 85%;
+  }
+
+  .logo-black {
+    height: 45px;
+    margin-top: 5px;
+  }
+
+  .skills-logo-container1 {
+    max-width: 85%;
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .contactme-container {
+    padding-top: 280px;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+
+  /* Main Nav */
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: auto;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 15px 0;
+    font-size: 90%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    position: relative;
+    padding: 10px 0;
+    font-size: 100%;
+    background-color: rgba(253, 253, 253, 0.8);
+    padding: 10px;
+    top: 30px;
+    margin-left: -80px;
+  }
+  .sticky .mobile-nav-icon i {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+    top: -20px;
+  }
+
+  /* section */
+
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .about-img {
+    top: 80px;
+    padding-bottom: 45px;
+  }
+
+  .about-me-section {
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+  }
+
+  .skills-img {
+    top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .experience-img {
+    top: 80px;
+    padding-bottom: 5px;
+  }
+
+  .projects-img {
+    top: 40px;
+    padding-bottom: 5px;
+  }
+
+  h1.projects-body {
+    margin-top: -20px;
+  }
+
+  .projects-container {
+    padding-top: 60px;
+  }
+
+  .Omnifoodweb-site-img,
+  .dyweb-site-img {
+    width: 85%;
+  }
+
+  .contactme-container {
+    padding-top: 140px;
+    width: 85%;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+}
+
+.intro_content {
+  font-size: 2.5vmax;
+  padding-top: 2px;
+  top: 120px;
+}
